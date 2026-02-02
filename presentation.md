@@ -11,6 +11,8 @@ color: #f1f5f9
 ## HEI Pre-Summit Engagements
 ### IndiaAI Impact Summit 2026
 
+![bg right:40% opacity:0.3](https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800)
+
 ---
 
 # Session Roadmap (120 Minutes)
@@ -33,6 +35,8 @@ color: #f1f5f9
 ## Opening & Context
 ### (0–10 Minutes)
 
+![bg right:40%](https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=800)
+
 ---
 
 # What is Atmanirbhar Bharat?
@@ -43,9 +47,13 @@ color: #f1f5f9
 
 > "Atmanirbhar Bharat is about empowering India from within using intelligence."
 
+🔗 **Learn More:** [pmindia.gov.in/atmanirbhar-bharat](https://www.pmindia.gov.in/en/atmanirbhar-bharat/)
+
 ---
 
 # Why AI is a Strategic National Asset
+
+![bg left:35%](https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800)
 
 - AI is the **new electricity** – it powers everything
 - Countries that lead in AI will lead the world economy
@@ -68,16 +76,18 @@ color: #f1f5f9
 2020s: AI Product Nation ← WE ARE HERE
 ```
 
+🔗 **Digital India:** [digitalindia.gov.in](https://www.digitalindia.gov.in/)
+
 ---
 
 # India's Digital Success Stories
 
 | Initiative | Impact |
 |:---|:---|
-| **UPI** | 10+ Billion transactions/month |
-| **Aadhaar** | 1.3 Billion digital identities |
-| **CoWIN** | 2+ Billion vaccine doses tracked |
-| **DigiLocker** | 150+ Million users |
+| **[UPI](https://www.npci.org.in/what-we-do/upi/product-overview)** | 10+ Billion transactions/month |
+| **[Aadhaar](https://uidai.gov.in/)** | 1.3 Billion digital identities |
+| **[CoWIN](https://www.cowin.gov.in/)** | 2+ Billion vaccine doses tracked |
+| **[DigiLocker](https://www.digilocker.gov.in/)** | 150+ Million users |
 
 **Next frontier: AI-powered services**
 
@@ -88,13 +98,19 @@ color: #f1f5f9
 ## IndiaAI Vision 2026
 ### (10–30 Minutes)
 
+![bg right:40%](https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800)
+
 ---
 
 # IndiaAI Mission Overview
 
+![bg left:30%](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800)
+
 - **Budget:** ₹10,371 Crore over 5 years
 - **Goal:** Make India a global AI leader
 - **Approach:** "AI in India, for India"
+
+🔗 **Official Portal:** [indiaai.gov.in](https://indiaai.gov.in/)
 
 ---
 
@@ -102,9 +118,9 @@ color: #f1f5f9
 
 1. 🖥️ **IndiaAI Compute Capacity**
 2. 🔬 **IndiaAI Innovation Centre**
-3. 📊 **IndiaAI Datasets Platform (AIKosh)**
+3. 📊 **[IndiaAI Datasets Platform (AIKosh)](https://indiaai.gov.in/research-reports/airawat)**
 4. 🏛️ **IndiaAI Application Development**
-5. 🎓 **IndiaAI FutureSkills**
+5. 🎓 **[IndiaAI FutureSkills](https://indiaai.gov.in/)**
 6. 💰 **IndiaAI Startup Financing**
 7. 🛡️ **Safe & Trusted AI**
 
@@ -112,12 +128,16 @@ color: #f1f5f9
 
 # Pillar 1: Compute Infrastructure
 
+![bg right:35%](https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800)
+
 - **10,000+ GPUs** being deployed
 - Available to:
   - Startups
   - Researchers
   - Universities
 - **Why it matters:** Training AI models requires massive compute power
+
+🔗 **Read More:** [PIB Press Release](https://pib.gov.in/PressReleasePage.aspx?PRID=2014345)
 
 ---
 
@@ -131,14 +151,20 @@ color: #f1f5f9
   - Education
   - Governance
 
+🔗 **Bhashini (Indian Language AI):** [bhashini.gov.in](https://bhashini.gov.in/)
+
 ---
 
 # Pillar 3: AIKosh – The Data Platform
+
+![bg left:30%](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800)
 
 - **5,500+ datasets** already available
 - **251 AI models** across 20 sectors
 - Non-personal, anonymized data
 - Free access for researchers and startups
+
+🔗 **Access Data:** [data.gov.in](https://data.gov.in/)
 
 ---
 
@@ -151,14 +177,20 @@ color: #f1f5f9
   - Smart governance
   - Climate change
 
+🔗 **Examples:** [indiaai.gov.in/case-studies](https://indiaai.gov.in/case-studies)
+
 ---
 
 # Pillar 5: FutureSkills
+
+![bg right:35%](https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800)
 
 - **570 AI Labs** in Tier 2 & Tier 3 cities
 - Fellowships for students
 - Reskilling programs for professionals
 - Goal: Create **1 Million+ AI-ready workforce**
+
+🔗 **Free Courses:** [nasscom.in/futureskills](https://futureskillsprime.in/)
 
 ---
 
@@ -169,6 +201,8 @@ color: #f1f5f9
 - Simplified access to capital
 - Focus on indigenous innovation
 
+🔗 **Apply Here:** [startupindia.gov.in](https://www.startupindia.gov.in/)
+
 ---
 
 # Pillar 7: Safe & Trusted AI
@@ -178,9 +212,13 @@ color: #f1f5f9
 - Privacy-preserving AI
 - Responsible deployment guidelines
 
+🔗 **NITI Aayog AI Policy:** [niti.gov.in/national-strategy-ai](https://www.niti.gov.in/sites/default/files/2023-03/National-Strategy-for-Artificial-Intelligence.pdf)
+
 ---
 
 # India's AI Investment Landscape (2024-25)
+
+![bg left:25%](https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800)
 
 | Metric | Value |
 |:---|:---|
@@ -188,6 +226,8 @@ color: #f1f5f9
 | Global Rank | **#10** |
 | GenAI Funding (H1 2024) | **$760 Million** |
 | Projected Market (2027) | **$17 Billion** |
+
+🔗 **Source:** [NASSCOM AI Report](https://nasscom.in/knowledge-center)
 
 ---
 
@@ -199,6 +239,8 @@ color: #f1f5f9
 4. **Retail/E-commerce** – Personalization
 5. **EdTech** – Personalized learning
 
+🔗 **Industry Insights:** [ibef.org/industry/artificial-intelligence](https://www.ibef.org/industry/artificial-intelligence)
+
 ---
 
 # The Economic Opportunity
@@ -207,6 +249,8 @@ color: #f1f5f9
 - 10% of global AI services market by 2047
 - Millions of new jobs in AI-adjacent fields
 
+🔗 **McKinsey Report:** [mckinsey.com/india-ai](https://www.mckinsey.com/featured-insights/india)
+
 ---
 
 <!-- _class: lead -->
@@ -214,9 +258,13 @@ color: #f1f5f9
 ## AI Use-Cases for Bharat
 ### (30–55 Minutes)
 
+![bg right:40%](https://images.unsplash.com/photo-1586771107445-d3ca888129ff?w=800)
+
 ---
 
 # 1️⃣ Agriculture – The Backbone
+
+![bg left:35%](https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800)
 
 **Challenges:**
 - 86% are small/marginal farmers
@@ -240,6 +288,9 @@ color: #f1f5f9
 | Crop diseases | Image-based pest detection |
 | Water management | IoT + AI irrigation |
 
+🔗 **Kisan Call Center:** [farmer.gov.in](https://farmer.gov.in/)
+🔗 **AgriStack:** [agricoop.nic.in](https://agricoop.nic.in/)
+
 ---
 
 # Case Study: Tomato Farmers
@@ -250,9 +301,13 @@ color: #f1f5f9
 **With AI:**
 - AI predicts oversupply → Farmer switches crop → Stable income
 
+🔗 **eNAM (Digital Mandi):** [enam.gov.in](https://enam.gov.in/)
+
 ---
 
 # 2️⃣ Healthcare – Rural Focus
+
+![bg right:35%](https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=800)
 
 **The Challenge:**
 - 1 Doctor per 1,456 people
@@ -276,9 +331,14 @@ color: #f1f5f9
 | **Cancer Detection** | AI spots tumors missed by humans |
 | **Drug Discovery** | 10x faster molecule screening |
 
+🔗 **e-Sanjeevani (Telemedicine):** [esanjeevani.in](https://esanjeevani.in/)
+🔗 **Aarogya Setu:** [aarogyasetu.gov.in](https://aarogyasetu.gov.in/)
+
 ---
 
 # 3️⃣ Manufacturing & MSMEs
+
+![bg left:30%](https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800)
 
 **Challenges:**
 - Quality control is manual
@@ -301,9 +361,14 @@ color: #f1f5f9
 - Reduces rejection rate by 40%
 - Saves lakhs in annual losses
 
+🔗 **MSME Portal:** [msme.gov.in](https://msme.gov.in/)
+🔗 **SAMARTH Udyog:** [samarthudyog-iip.in](https://www.samarthudyog-iip.in/)
+
 ---
 
 # 4️⃣ Education – Personalized Learning
+
+![bg right:35%](https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800)
 
 **Challenges:**
 - One-size-fits-all teaching
@@ -327,9 +392,14 @@ color: #f1f5f9
 | Content Generation | Creates practice questions automatically |
 | Doubt Resolution | 24/7 AI-powered Q&A |
 
+🔗 **DIKSHA Platform:** [diksha.gov.in](https://diksha.gov.in/)
+🔗 **SWAYAM:** [swayam.gov.in](https://swayam.gov.in/)
+
 ---
 
 # 5️⃣ Governance – Smart Administration
+
+![bg left:30%](https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800)
 
 **Challenges:**
 - Citizen grievance delays
@@ -353,12 +423,17 @@ color: #f1f5f9
 | **Land Records Digitization** | Instant property verification |
 | **Pension Verification** | Biometric + AI reduces fraud |
 
+🔗 **CPGRAMS:** [pgportal.gov.in](https://pgportal.gov.in/)
+🔗 **DBT (Direct Benefit Transfer):** [dbtbharat.gov.in](https://dbtbharat.gov.in/)
+
 ---
 
 <!-- _class: lead -->
 # PART 4
 ## HEIs as AI Catalysts
 ### (55–70 Minutes)
+
+![bg right:40%](https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800)
 
 ---
 
@@ -369,14 +444,21 @@ color: #f1f5f9
 - **Local Context:** Understanding regional problems
 - **Innovation:** No legacy systems to hold back
 
+🔗 **AICTE AI Initiatives:** [aicte-india.org](https://www.aicte-india.org/)
+
 ---
 
 # How Colleges Become AI Engines
+
+![bg left:30%](https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800)
 
 1. **Low-cost AI Labs** – GPU clusters, cloud credits
 2. **Industry Partnerships** – Real problem statements
 3. **Open Source Contribution** – Build India's AI stack
 4. **Rural Immersion** – Solve ground-level challenges
+
+🔗 **Google Cloud for Education:** [cloud.google.com/edu](https://cloud.google.com/edu)
+🔗 **AWS Educate:** [aws.amazon.com/education](https://aws.amazon.com/education/)
 
 ---
 
@@ -404,10 +486,11 @@ color: #f1f5f9
 
 # Building Your AI Portfolio
 
-1. **GitHub Projects** – Open source contributions
-2. **Kaggle Competitions** – Prove your skills
-3. **Research Papers** – Even short publications count
-4. **Demo Apps** – Show, don't just tell
+1. **[GitHub](https://github.com/)** – Open source contributions
+2. **[Kaggle](https://www.kaggle.com/)** – Prove your skills in competitions
+3. **[arXiv](https://arxiv.org/)** – Research papers (even short publications count)
+4. **[Hugging Face](https://huggingface.co/)** – Share your models
+5. **Demo Apps** – Show, don't just tell
 
 ---
 
@@ -429,6 +512,8 @@ color: #f1f5f9
 
 *Raise your hand or scan the QR code*
 
+🔗 **Create Live Polls:** [mentimeter.com](https://www.mentimeter.com/)
+
 ---
 
 # Discussion Question
@@ -449,9 +534,13 @@ color: #f1f5f9
 ## 🚀 Live AI Demo
 ### (80–105 Minutes)
 
+![bg right:40%](https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800)
+
 ---
 
 # Demo: AI Crop Predictor
+
+![bg left:30%](https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800)
 
 **What it does:**
 - Takes crop name + month as input
@@ -470,10 +559,10 @@ color: #f1f5f9
 
 | Component | Technology |
 |:---|:---|
-| Backend | Node.js + Express |
+| Backend | [Node.js](https://nodejs.org/) + [Express](https://expressjs.com/) |
 | Data | CSV with historical trends |
 | Frontend | HTML + CSS + JavaScript |
-| Hosting | Local or can be deployed |
+| Hosting | Local or can be deployed on [Render](https://render.com/) |
 
 ---
 
@@ -497,6 +586,8 @@ color: #f1f5f9
 2. Run `npm install`
 3. Run `node index.js`
 4. Open browser → `localhost:3000`
+
+🔗 **GitHub Repo:** [github.com/yashsm01/AI-for-Atmanirbhar-Bharat-HEI-Pre-Summit-Engagements-towards-IndiaAI-Impact-Summit-2026](https://github.com/yashsm01/AI-for-Atmanirbhar-Bharat-HEI-Pre-Summit-Engagements-towards-IndiaAI-Impact-Summit-2026)
 
 ---
 
@@ -536,6 +627,9 @@ return {
 - Add weather data for yield prediction
 - Use satellite imagery for crop health
 
+🔗 **Learn ML:** [fast.ai](https://www.fast.ai/)
+🔗 **Weather API:** [openweathermap.org](https://openweathermap.org/api)
+
 ---
 
 # Your Challenge
@@ -546,6 +640,8 @@ return {
 - Create a Hindi UI
 - Build a mobile-friendly version
 
+🔗 **Fork on GitHub:** [github.com/yashsm01/AI-for-Atmanirbhar-Bharat-HEI-Pre-Summit-Engagements-towards-IndiaAI-Impact-Summit-2026](https://github.com/yashsm01/AI-for-Atmanirbhar-Bharat-HEI-Pre-Summit-Engagements-towards-IndiaAI-Impact-Summit-2026)
+
 ---
 
 <!-- _class: lead -->
@@ -553,42 +649,46 @@ return {
 ## Roadmap & Opportunities
 ### (105–115 Minutes)
 
+![bg right:40%](https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800)
+
 ---
 
 # The Student Roadmap for 2026
 
-| Step | Action |
-|:---|:---|
-| 1 | Master Python + Data basics |
-| 2 | Learn one ML framework (TensorFlow/PyTorch) |
-| 3 | Build 3 portfolio projects |
-| 4 | Contribute to open source |
-| 5 | Participate in hackathons |
+| Step | Action | Resource |
+|:---|:---|:---|
+| 1 | Master Python + Data basics | [python.org](https://www.python.org/) |
+| 2 | Learn one ML framework | [tensorflow.org](https://www.tensorflow.org/) |
+| 3 | Build 3 portfolio projects | [kaggle.com](https://www.kaggle.com/) |
+| 4 | Contribute to open source | [github.com](https://github.com/) |
+| 5 | Participate in hackathons | [devfolio.co](https://devfolio.co/) |
 
 ---
 
 # Funding & Growth Opportunities
 
-- **IndiaAI Hackathons** – Win cash + recognition
-- **Startup India** – Funding for AI ventures
-- **NASSCOM AI Initiative** – Industry connections
-- **Google/Microsoft/AWS Credits** – Free cloud compute
-- **University Incubators** – Go from idea to startup
+- **[IndiaAI Hackathons](https://indiaai.gov.in/)** – Win cash + recognition
+- **[Startup India](https://www.startupindia.gov.in/)** – Funding for AI ventures
+- **[NASSCOM AI Initiative](https://nasscom.in/)** – Industry connections
+- **[Google Cloud Credits](https://cloud.google.com/edu)** – Free cloud compute
+- **[Atal Incubation Centers](https://aim.gov.in/)** – Infrastructure + mentorship
 
 ---
 
 # Government Programs
 
-| Program | Benefit |
-|:---|:---|
-| IndiaAI FutureSkills | Free AI courses + certification |
-| Startup India | Tax benefits, funding access |
-| PMEGP | Loans for AI-based businesses |
-| Atal Incubation | Infrastructure + mentorship |
+| Program | Benefit | Link |
+|:---|:---|:---|
+| IndiaAI FutureSkills | Free AI courses | [indiaai.gov.in](https://indiaai.gov.in/) |
+| Startup India | Tax benefits | [startupindia.gov.in](https://www.startupindia.gov.in/) |
+| PMEGP | Loans | [kviconline.gov.in](https://www.kviconline.gov.in/) |
+| Atal Incubation | Mentorship | [aim.gov.in](https://aim.gov.in/) |
 
 ---
 
 # Think Bharat-First
+
+![bg right:30%](https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800)
 
 **Don't copy Silicon Valley problems.**
 
@@ -606,6 +706,8 @@ Build for:
 - They speak regional languages
 - They have unique local needs
 - **They are your market**
+
+🔗 **Internet Usage Stats:** [iamai.in](https://www.iamai.in/)
 
 ---
 
@@ -642,6 +744,8 @@ Build for:
 4. 🤝 **Form a team for the next hackathon**
 5. 🇮🇳 **Build AI for Bharat**
 
+🔗 **GitHub:** [github.com/yashsm01/AI-for-Atmanirbhar-Bharat-HEI-Pre-Summit-Engagements-towards-IndiaAI-Impact-Summit-2026](https://github.com/yashsm01/AI-for-Atmanirbhar-Bharat-HEI-Pre-Summit-Engagements-towards-IndiaAI-Impact-Summit-2026)
+
 ---
 
 # Join the Movement
@@ -653,6 +757,8 @@ Build for:
 - Win funding and recognition
 - Be part of India's AI story
 
+🔗 **Register:** [indiaai.gov.in](https://indiaai.gov.in/)
+
 ---
 
 <!-- _class: lead -->
@@ -661,8 +767,23 @@ Build for:
 
 **Resources:**
 - 🌐 [indiaai.gov.in](https://indiaai.gov.in)
-- 💻 GitHub: Fork this repo
-- 📧 Contact: [Your details]
+- 💻 [github.com/yashsm01](https://github.com/yashsm01)
+- 📧 Contact: Add your email
+
+![bg right:30% opacity:0.5](https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800)
+
+---
+
+# Quick Links Summary
+
+| Category | Link |
+|:---|:---|
+| **IndiaAI Official** | [indiaai.gov.in](https://indiaai.gov.in/) |
+| **Digital India** | [digitalindia.gov.in](https://www.digitalindia.gov.in/) |
+| **Startup India** | [startupindia.gov.in](https://www.startupindia.gov.in/) |
+| **This Repo** | [GitHub Link](https://github.com/yashsm01/AI-for-Atmanirbhar-Bharat-HEI-Pre-Summit-Engagements-towards-IndiaAI-Impact-Summit-2026) |
+| **Learn AI Free** | [kaggle.com/learn](https://www.kaggle.com/learn) |
+| **AI Ethics** | [niti.gov.in/ai](https://www.niti.gov.in) |
 
 ---
 
@@ -675,5 +796,7 @@ Build for:
 - `presentation.md` – This presentation (Marp compatible)
 - `detailed_session_guide.md` – Speaker notes
 - `/demo` – Live AI application
+
+🔗 **Convert to PDF:** [marp.app](https://marp.app/)
 
 ---
