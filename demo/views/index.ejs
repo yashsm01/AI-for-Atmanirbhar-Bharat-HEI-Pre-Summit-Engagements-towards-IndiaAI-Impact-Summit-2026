@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Crop Predictor | Atmanirbhar Bharat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg: #0f172a;
+            --card: #1e293b;
+            --text: #f1f5f9;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: var(--card);
+            padding: 2.5rem;
+            border-radius: 1.5rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            max-width: 500px;
+            border: 1px solid #334155;
+        }
+        h1 {
+            font-weight: 800;
+            font-size: 1.875rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(to right, #60a5fa, #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+        }
+        p.subtitle {
+            text-align: center;
+            color: #94a3b8;
+            margin-bottom: 2rem;
+            font-size: 0.875rem;
+        }
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #cbd5e1;
+        }
+        select {
+            width: 100%;
+            padding: 0.75rem;
+            background-color: #0f172a;
+            border: 1px solid #334155;
+            color: white;
+            border-radius: 0.5rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        select:focus {
+            border-color: var(--primary);
+        }
+        button {
+            width: 100%;
+            padding: 0.75rem;
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: filter 0.2s;
+        }
+        button:hover {
+            filter: brightness(1.1);
+        }
+        #result {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background-color: #0f172a;
+            border-radius: 1rem;
+            display: none;
+            border-left: 4px solid var(--primary);
+        }
+        .result-title {
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        .recommendation {
+            font-size: 1.1rem;
+            line-height: 1.5;
+        }
+        .stat {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+            font-size: 0.875rem;
+            color: #94a3b8;
+        }
+        .stat span {
+            color: #e2e8f0;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI Crop Predictor</h1>
+        <p class="subtitle">Empowering farmers with data-driven insights</p>
+        
+        <form id="predictForm">
+            <div class="form-group">
+                <label for="crop">Select Crop</label>
+                <select id="crop" name="crop">
+                    <option value="Tomato">Tomato</option>
+                    <option value="Wheat">Wheat</option>
+                    <option value="Rice">Rice</option>
+                    <option value="Onion">Onion</option>
+                    <option value="Potato">Potato</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="month">Select Month</label>
+                <select id="month" name="month">
+                    <option value="January">January</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+            </div>
+            <button type="submit">Predict Demand & Price</button>
+        </form>
+
+        <div id="result">
+            <div class="stat">Demand Level: <span id="demand"></span></div>
+            <div class="stat">Price Trend: <span id="price"></span></div>
+            <hr style="border: 0; border-top: 1px solid #334155; margin: 1rem 0;">
+            <div class="result-title">AI Recommendation</div>
+            <div class="recommendation" id="rec"></div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('predictForm').onsubmit = async (e) => {
+            e.preventDefault();
+            const crop = document.getElementById('crop').value;
+            const month = document.getElementById('month').value;
+            
+            const response = await fetch(`/predict?crop=${crop}&month=${month}`);
+            const data = await response.json();
+            
+            if (data.error) {
+                alert(data.error);
+                return;
+            }
+
+            document.getElementById('result').style.display = 'block';
+            document.getElementById('demand').innerText = data.historical_demand;
+            document.getElementById('price').innerText = data.price_trend;
+            document.getElementById('rec').innerText = data.recommendation;
+        };
+    </script>
+</body>
+</html>

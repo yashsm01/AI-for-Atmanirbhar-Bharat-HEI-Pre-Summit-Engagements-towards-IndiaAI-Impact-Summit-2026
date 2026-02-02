@@ -1,0 +1,9 @@
+crop,month,historical_demand,price_trend,recommendation
+Tomato,June,High,Volatile,Avoid - High risk of loss due to monsoon volatility
+Tomato,December,Medium,Stable,Grow - Good winter yield and stable demand
+Wheat,November,Very High,Rising,Grow - Peak sowing season with guaranteed demand
+Rice,July,High,Stable,Grow - Seasonal suitability
+Onion,October,High,Rising,Grow - Low supply expected in market
+Onion,May,Medium,Falling,Avoid - Excess supply hitting market
+Potato,January,High,Rising,Grow - Bulk storage demand
+Potato,July,Low,Volatile,Avoid - Storage stock usually high
