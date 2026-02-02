@@ -11,7 +11,7 @@ color: #f1f5f9
 ## HEI Pre-Summit Engagements
 ### IndiaAI Impact Summit 2026
 
-![bg right:40% opacity:0.3](https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800)
+![bg right:40% opacity:0.3](https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400)
 
 ---
 
@@ -35,7 +35,7 @@ color: #f1f5f9
 ## Opening & Context
 ### (0–10 Minutes)
 
-![bg right:40%](https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=800)
+![bg right:40%](https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=400)
 
 ---
 
@@ -53,7 +53,7 @@ color: #f1f5f9
 
 # Why AI is a Strategic National Asset
 
-![bg left:35%](https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800)
+![bg left:35%](https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400)
 
 - AI is the **new electricity** – it powers everything
 - Countries that lead in AI will lead the world economy
@@ -98,13 +98,13 @@ color: #f1f5f9
 ## IndiaAI Vision 2026
 ### (10–30 Minutes)
 
-![bg right:40%](https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800)
+![bg right:40%](https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400)
 
 ---
 
 # IndiaAI Mission Overview
 
-![bg left:30%](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800)
+![bg left:30%](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400)
 
 - **Budget:** ₹10,371 Crore over 5 years
 - **Goal:** Make India a global AI leader
@@ -128,7 +128,7 @@ color: #f1f5f9
 
 # Pillar 1: Compute Infrastructure
 
-![bg right:35%](https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800)
+![bg right:35%](https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400)
 
 - **10,000+ GPUs** being deployed
 - Available to:
@@ -157,7 +157,7 @@ color: #f1f5f9
 
 # Pillar 3: AIKosh – The Data Platform
 
-![bg left:30%](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800)
+![bg left:30%](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400)
 
 - **5,500+ datasets** already available
 - **251 AI models** across 20 sectors
@@ -183,7 +183,7 @@ color: #f1f5f9
 
 # Pillar 5: FutureSkills
 
-![bg right:35%](https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800)
+![bg right:35%](https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=400)
 
 - **570 AI Labs** in Tier 2 & Tier 3 cities
 - Fellowships for students
@@ -218,7 +218,7 @@ color: #f1f5f9
 
 # India's AI Investment Landscape (2024-25)
 
-![bg left:25%](https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800)
+![bg left:25%](https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400)
 
 | Metric | Value |
 |:---|:---|
@@ -258,13 +258,13 @@ color: #f1f5f9
 ## AI Use-Cases for Bharat
 ### (30–55 Minutes)
 
-![bg right:40%](https://images.unsplash.com/photo-1586771107445-d3ca888129ff?w=800)
+![bg right:40%](https://images.unsplash.com/photo-1586771107445-d3ca888129ff?w=400)
 
 ---
 
 # 1️⃣ Agriculture – The Backbone
 
-![bg left:35%](https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800)
+![bg left:35%](https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=400)
 
 **Challenges:**
 - 86% are small/marginal farmers
@@ -307,7 +307,7 @@ color: #f1f5f9
 
 # 2️⃣ Healthcare – Rural Focus
 
-![bg right:35%](https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=800)
+![bg right:35%](https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=400)
 
 **The Challenge:**
 - 1 Doctor per 1,456 people
@@ -338,7 +338,7 @@ color: #f1f5f9
 
 # 3️⃣ Manufacturing & MSMEs
 
-![bg left:30%](https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800)
+![bg left:30%](https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400)
 
 **Challenges:**
 - Quality control is manual
@@ -368,7 +368,7 @@ color: #f1f5f9
 
 # 4️⃣ Education – Personalized Learning
 
-![bg right:35%](https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800)
+![bg right:35%](https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400)
 
 **Challenges:**
 - One-size-fits-all teaching
@@ -399,7 +399,7 @@ color: #f1f5f9
 
 # 5️⃣ Governance – Smart Administration
 
-![bg left:30%](https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800)
+![bg left:30%](https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400)
 
 **Challenges:**
 - Citizen grievance delays
@@ -433,7 +433,7 @@ color: #f1f5f9
 ## HEIs as AI Catalysts
 ### (55–70 Minutes)
 
-![bg right:40%](https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800)
+![bg right:40%](https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400)
 
 ---
 
@@ -450,7 +450,7 @@ color: #f1f5f9
 
 # How Colleges Become AI Engines
 
-![bg left:30%](https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800)
+![bg left:30%](https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400)
 
 1. **Low-cost AI Labs** – GPU clusters, cloud credits
 2. **Industry Partnerships** – Real problem statements
@@ -534,13 +534,13 @@ color: #f1f5f9
 ## 🚀 Live AI Demo
 ### (80–105 Minutes)
 
-![bg right:40%](https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800)
+![bg right:40%](https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400)
 
 ---
 
 # Demo: AI Crop Predictor
 
-![bg left:30%](https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800)
+![bg left:30%](https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=400)
 
 **What it does:**
 - Takes crop name + month as input
@@ -649,7 +649,7 @@ return {
 ## Roadmap & Opportunities
 ### (105–115 Minutes)
 
-![bg right:40%](https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800)
+![bg right:40%](https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400)
 
 ---
 
@@ -688,7 +688,7 @@ return {
 
 # Think Bharat-First
 
-![bg right:30%](https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800)
+![bg right:30%](https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=400)
 
 **Don't copy Silicon Valley problems.**
 
@@ -770,7 +770,7 @@ Build for:
 - 💻 [github.com/yashsm01](https://github.com/yashsm01)
 - 📧 Contact: Add your email
 
-![bg right:30% opacity:0.5](https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800)
+![bg right:30% opacity:0.5](https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400)
 
 ---
 
