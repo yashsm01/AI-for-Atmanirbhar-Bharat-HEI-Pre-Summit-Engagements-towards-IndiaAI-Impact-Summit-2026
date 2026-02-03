@@ -9,8 +9,10 @@ const app = express();
 const PORT = 3000;
 
 // Initialize Gemini AI
-const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
-const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
+const apiKey = process.env.GOOGLE_API_KEY;
+console.log('API Key loaded:', apiKey ? 'Yes (ends with ' + apiKey.slice(-4) + ')' : 'No');
+const genAI = new GoogleGenerativeAI(apiKey);
+const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
