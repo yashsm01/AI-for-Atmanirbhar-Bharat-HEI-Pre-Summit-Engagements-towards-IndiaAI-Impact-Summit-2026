@@ -123,9 +123,17 @@ demo/
 
 ### Test Your API Key
 
+**Using Node.js:**
 ```bash
 node test-api.js
 ```
+
+**Using curl (replace YOUR_API_KEY):**
+```bash
+curl "https://generativelanguage.googleapis.com/v1beta/models?key=YOUR_API_KEY"
+```
+
+This will list all available Gemini models for your API key.
 
 ---
 
