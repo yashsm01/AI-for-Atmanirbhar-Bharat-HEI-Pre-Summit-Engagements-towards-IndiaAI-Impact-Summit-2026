@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,47 +9,77 @@
     <style>
         :root {
             --primary: #2563eb;
+            --secondary: #10b981;
             --bg: #0f172a;
             --card: #1e293b;
             --text: #f1f5f9;
         }
+
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             font-family: 'Inter', sans-serif;
-            background-color: var(--bg);
+            background: linear-gradient(135deg, var(--bg) 0%, #1a1a2e 100%);
             color: var(--text);
             margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             min-height: 100vh;
+            padding: 2rem;
         }
+
         .container {
-            background-color: var(--card);
-            padding: 2.5rem;
-            border-radius: 1.5rem;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-            width: 100%;
-            max-width: 500px;
-            border: 1px solid #334155;
+            max-width: 900px;
+            margin: 0 auto;
         }
+
         h1 {
             font-weight: 800;
-            font-size: 1.875rem;
+            font-size: 2rem;
             margin-bottom: 0.5rem;
             background: linear-gradient(to right, #60a5fa, #a855f7);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-align: center;
         }
-        p.subtitle {
+
+        .subtitle {
             text-align: center;
             color: #94a3b8;
             margin-bottom: 2rem;
-            font-size: 0.875rem;
         }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .card {
+            background-color: var(--card);
+            padding: 1.5rem;
+            border-radius: 1rem;
+            border: 1px solid #334155;
+        }
+
+        .card h2 {
+            font-size: 1.1rem;
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
         .form-group {
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
         }
+
         label {
             display: block;
             margin-bottom: 0.5rem;
@@ -56,7 +87,10 @@
             font-weight: 600;
             color: #cbd5e1;
         }
-        select {
+
+        select,
+        input,
+        textarea {
             width: 100%;
             padding: 0.75rem;
             background-color: #0f172a;
@@ -65,41 +99,62 @@
             border-radius: 0.5rem;
             outline: none;
             transition: border-color 0.2s;
+            font-family: inherit;
         }
-        select:focus {
+
+        select:focus,
+        input:focus,
+        textarea:focus {
             border-color: var(--primary);
         }
+
+        textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+
         button {
             width: 100%;
             padding: 0.75rem;
-            background-color: var(--primary);
+            background: linear-gradient(135deg, var(--primary), #7c3aed);
             color: white;
             border: none;
             border-radius: 0.5rem;
             font-weight: 600;
             cursor: pointer;
-            transition: filter 0.2s;
+            transition: transform 0.2s, box-shadow 0.2s;
         }
+
         button:hover {
-            filter: brightness(1.1);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
         }
-        #result {
-            margin-top: 2rem;
-            padding: 1.5rem;
+
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .result {
+            margin-top: 1rem;
+            padding: 1rem;
             background-color: #0f172a;
-            border-radius: 1rem;
+            border-radius: 0.75rem;
             display: none;
             border-left: 4px solid var(--primary);
         }
+
+        .result.success {
+            border-left-color: var(--secondary);
+        }
+
         .result-title {
-            font-weight: 800;
-            color: var(--primary);
+            font-weight: 700;
             margin-bottom: 0.5rem;
+            color: var(--secondary);
         }
-        .recommendation {
-            font-size: 1.1rem;
-            line-height: 1.5;
-        }
+
         .stat {
             display: flex;
             justify-content: space-between;
@@ -107,71 +162,255 @@
             font-size: 0.875rem;
             color: #94a3b8;
         }
+
         .stat span {
             color: #e2e8f0;
             font-weight: 600;
         }
+
+        .ai-response {
+            white-space: pre-wrap;
+            line-height: 1.6;
+            font-size: 0.9rem;
+        }
+
+        .chat-messages {
+            max-height: 300px;
+            overflow-y: auto;
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            background: #0f172a;
+            border-radius: 0.5rem;
+        }
+
+        .message {
+            padding: 0.75rem;
+            margin-bottom: 0.5rem;
+            border-radius: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .message.user {
+            background: var(--primary);
+            margin-left: 2rem;
+        }
+
+        .message.ai {
+            background: #334155;
+            margin-right: 2rem;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #ffffff40;
+            border-radius: 50%;
+            border-top-color: #fff;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            background: linear-gradient(135deg, #10b981, #059669);
+            border-radius: 0.25rem;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #334155;
+            margin: 1rem 0;
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
-        <h1>AI Crop Predictor</h1>
-        <p class="subtitle">Empowering farmers with data-driven insights</p>
-        
-        <form id="predictForm">
-            <div class="form-group">
-                <label for="crop">Select Crop</label>
-                <select id="crop" name="crop">
-                    <option value="Tomato">Tomato</option>
-                    <option value="Wheat">Wheat</option>
-                    <option value="Rice">Rice</option>
-                    <option value="Onion">Onion</option>
-                    <option value="Potato">Potato</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="month">Select Month</label>
-                <select id="month" name="month">
-                    <option value="January">January</option>
-                    <option value="May">May</option>
-                    <option value="June">June</option>
-                    <option value="July">July</option>
-                    <option value="October">October</option>
-                    <option value="November">November</option>
-                    <option value="December">December</option>
-                </select>
-            </div>
-            <button type="submit">Predict Demand & Price</button>
-        </form>
+        <h1>🌾 AI Crop Predictor</h1>
+        <p class="subtitle">Powered by Gemini AI | Atmanirbhar Bharat</p>
 
-        <div id="result">
-            <div class="stat">Demand Level: <span id="demand"></span></div>
-            <div class="stat">Price Trend: <span id="price"></span></div>
-            <hr style="border: 0; border-top: 1px solid #334155; margin: 1rem 0;">
-            <div class="result-title">AI Recommendation</div>
-            <div class="recommendation" id="rec"></div>
+        <div class="grid">
+            <!-- Prediction Card -->
+            <div class="card">
+                <h2>📊 Crop Prediction</h2>
+                <form id="predictForm">
+                    <div class="form-group">
+                        <label for="crop">Select Crop</label>
+                        <select id="crop" name="crop">
+                            <option value="Tomato">Tomato</option>
+                            <option value="Wheat">Wheat</option>
+                            <option value="Rice">Rice</option>
+                            <option value="Onion">Onion</option>
+                            <option value="Potato">Potato</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="month">Select Month</label>
+                        <select id="month" name="month">
+                            <option value="January">January</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="October">October</option>
+                            <option value="November">November</option>
+                            <option value="December">December</option>
+                        </select>
+                    </div>
+                    <button type="submit">Predict Demand & Price</button>
+                </form>
+
+                <div id="result" class="result">
+                    <div class="stat">Demand Level: <span id="demand"></span></div>
+                    <div class="stat">Price Trend: <span id="price"></span></div>
+                    <hr>
+                    <div class="result-title">Recommendation</div>
+                    <div id="rec"></div>
+                </div>
+            </div>
+
+            <!-- AI Advice Card -->
+            <div class="card">
+                <h2>🤖 AI Farming Advice <span class="badge">Gemini AI</span></h2>
+                <form id="adviceForm">
+                    <div class="form-group">
+                        <label for="adviceCrop">Crop</label>
+                        <select id="adviceCrop">
+                            <option value="Tomato">Tomato</option>
+                            <option value="Wheat">Wheat</option>
+                            <option value="Rice">Rice</option>
+                            <option value="Onion">Onion</option>
+                            <option value="Potato">Potato</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="adviceMonth">Month</label>
+                        <select id="adviceMonth">
+                            <option value="January">January</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="November">November</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="question">Your Question (optional)</label>
+                        <textarea id="question" placeholder="e.g., What fertilizer should I use?"></textarea>
+                    </div>
+                    <button type="submit" id="adviceBtn">Get AI Advice</button>
+                </form>
+
+                <div id="adviceResult" class="result success">
+                    <div class="result-title">🧠 AI Advice</div>
+                    <div id="aiAdvice" class="ai-response"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Card -->
+        <div class="card" style="margin-top: 1.5rem;">
+            <h2>💬 Chat with Krishi Mitra <span class="badge">कृषि मित्र</span></h2>
+            <div id="chatMessages" class="chat-messages">
+                <div class="message ai">नमस्ते! मैं कृषि मित्र हूं। खेती से जुड़ा कोई भी सवाल पूछें! (Hello! I'm Krishi
+                    Mitra. Ask me anything about farming!)</div>
+            </div>
+            <form id="chatForm" style="display: flex; gap: 0.5rem;">
+                <input type="text" id="chatInput" placeholder="Ask anything about farming..." style="flex: 1;">
+                <button type="submit" id="chatBtn" style="width: auto; padding: 0.75rem 1.5rem;">Send</button>
+            </form>
         </div>
     </div>
 
     <script>
+        // Prediction Form
         document.getElementById('predictForm').onsubmit = async (e) => {
             e.preventDefault();
             const crop = document.getElementById('crop').value;
             const month = document.getElementById('month').value;
-            
+
             const response = await fetch(`/predict?crop=${crop}&month=${month}`);
             const data = await response.json();
-            
-            if (data.error) {
-                alert(data.error);
-                return;
-            }
 
             document.getElementById('result').style.display = 'block';
-            document.getElementById('demand').innerText = data.historical_demand;
-            document.getElementById('price').innerText = data.price_trend;
-            document.getElementById('rec').innerText = data.recommendation;
+            document.getElementById('demand').innerText = data.historical_demand || 'N/A';
+            document.getElementById('price').innerText = data.price_trend || 'N/A';
+            document.getElementById('rec').innerText = data.recommendation || data.error;
+        };
+
+        // AI Advice Form
+        document.getElementById('adviceForm').onsubmit = async (e) => {
+            e.preventDefault();
+            const btn = document.getElementById('adviceBtn');
+            btn.disabled = true;
+            btn.innerHTML = '<span class="loading"></span> Thinking...';
+
+            const crop = document.getElementById('adviceCrop').value;
+            const month = document.getElementById('adviceMonth').value;
+            const question = document.getElementById('question').value;
+
+            try {
+                const response = await fetch('/ai-advice', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ crop, month, question })
+                });
+                const data = await response.json();
+
+                document.getElementById('adviceResult').style.display = 'block';
+                document.getElementById('aiAdvice').innerText = data.aiAdvice || data.error;
+            } catch (err) {
+                document.getElementById('adviceResult').style.display = 'block';
+                document.getElementById('aiAdvice').innerText = 'Error getting AI advice. Please try again.';
+            }
+
+            btn.disabled = false;
+            btn.innerHTML = 'Get AI Advice';
+        };
+
+        // Chat Form
+        document.getElementById('chatForm').onsubmit = async (e) => {
+            e.preventDefault();
+            const input = document.getElementById('chatInput');
+            const message = input.value.trim();
+            if (!message) return;
+
+            const chatMessages = document.getElementById('chatMessages');
+            const btn = document.getElementById('chatBtn');
+
+            // Add user message
+            chatMessages.innerHTML += `<div class="message user">${message}</div>`;
+            input.value = '';
+            btn.disabled = true;
+
+            // Add loading
+            const loadingId = Date.now();
+            chatMessages.innerHTML += `<div class="message ai" id="loading-${loadingId}"><span class="loading"></span> Thinking...</div>`;
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+
+            try {
+                const response = await fetch('/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message })
+                });
+                const data = await response.json();
+
+                document.getElementById(`loading-${loadingId}`).innerHTML = data.response || data.error;
+            } catch (err) {
+                document.getElementById(`loading-${loadingId}`).innerHTML = 'Error. Please try again.';
+            }
+
+            btn.disabled = false;
+            chatMessages.scrollTop = chatMessages.scrollHeight;
         };
     </script>
 </body>
+
 </html>
